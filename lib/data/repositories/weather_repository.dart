@@ -36,7 +36,7 @@ class WeatherRepository {
 
   /// API key for authenticating with OpenWeatherMap
   /// Note: In a production app, this should be stored securely
-  static const String _apiKey = 'b655def52a4db20b5831470a92ad8e70';
+  static const String _apiKey = 'Your_API_Key_Here';
 
   /// HTTP client for making API requests
   final http.Client _httpClient;
